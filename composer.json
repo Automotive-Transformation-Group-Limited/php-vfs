@@ -1,5 +1,5 @@
 {
-    "name": "atg-ltd/vfs",
+    "name": "atg-ltd/php-vfs",
     "description": "Virtual file system",
     "homepage": "https://github.com/adlawson/php-vfs",
     "license": "MIT",
