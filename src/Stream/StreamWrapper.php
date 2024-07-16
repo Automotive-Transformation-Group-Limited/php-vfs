@@ -19,6 +19,7 @@ class StreamWrapper
     protected $handle;
     protected $mode;
     protected $url;
+    public $context;
 
     /**
      * @return boolean
