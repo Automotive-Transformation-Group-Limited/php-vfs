@@ -77,7 +77,7 @@ abstract class AbstractHandle implements HandleInterface
      */
     protected function parseMode($mode)
     {
-        return [substr($mode, 0, 1), substr($mode, 1, 2)];
+        return (!empty($mode)) ? [substr($mode, 0, 1), substr($mode, 1, 2)] : "";
     }
 
     /**
